@@ -5,11 +5,11 @@ Welcome to our project submission for the APAC HPC AI Competition 2024. This REA
 
 # Team Members
 Anis Humaira Azman - Team leader
-Nurul Farizatul Aina Mohammad Farizal
-Maimunah Hosni
-Wan Siti Aisyah Wan Kadir
-Siti Nurinsyirah Pahrin
-Azyan Syazwani Setia
+, Nurul Farizatul Aina Mohammad Farizal
+, Maimunah Hosni
+, Wan Siti Aisyah Wan Kadir
+, Siti Nurinsyirah Pahrin
+, Azyan Syazwani Setia
 
 # Project Description
 Our project for the APAC HPC AI Competition 2024 focuses on the integration and optimization of HOOMD-blue and LLaMA LitGPT on the NCI and NSCC SG supercomputers.
