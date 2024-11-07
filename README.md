@@ -12,23 +12,29 @@ Anis Humaira Azman - Team leader
 , Azyan Syazwani Setia
 
 # Project Description
-Our project for the APAC HPC AI Competition 2024 focuses on the integration and optimization of HOOMD-blue and LLaMA LitGPT on the NCI and NSCC SG supercomputers.
+Our project for the APAC HPC AI Competition 2024 focuses on the integration and optimization of HOOMD-blue and LLaMA2 LitGPT on the NCI and NSCC SG supercomputers.
 
 # Objectives
 The objective is to leverage these advanced computational tools and high-performance computing resources to solve complex problems in molecular dynamics and natural language processing efficiently, with a primary focus on achieving maximum optimization.
 
-# Dataset
-Describe the dataset(s) used in your project. Include information on the source, size, and any preprocessing steps taken.
-
 # Methodology
-Detail the approach and techniques used in your project. Include information on algorithms, models, and any HPC-specific techniques utilized.
+[HOOMD Blue]
+* Calculate efficiency using total cores and speedup.
+* Try allocating different cores and nodes to increase the number of steps.
+* Result: Comparison on different number of nodes.
 
+[Llama2]
+* Optimization on MPI communication settings.
+* Result: Comparison on training time.
+  
+#
 Programming Languages: Python
 HPC Resources: Gadi HPC system, Aspire2U NSCC
-System Architecture
 
 # Results
-Summarize the results of your project. Include any relevant metrics, charts, and visualizations.
+[HOOMD Blue]
+* Steps per second increased when more nodes and cores are used. This reflects on the improved performance with additional computational resources
+* 
 
 # Challenges
 Discuss any challenges or obstacles faced during the project and how they were addressed.
