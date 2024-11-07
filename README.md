@@ -4,12 +4,12 @@
 Welcome to our project submission for the APAC HPC AI Competition 2024. This README file provides an overview of our project, the methodologies used, and the results obtained.
 
 # Team Members
-Anis Humaira Azman - Team leader
-, Nurul Farizatul Aina Mohammad Farizal
-, Maimunah Hosni
-, Wan Siti Aisyah Wan Kadir
-, Siti Nurinsyirah Pahrin
-, Azyan Syazwani Setia
+* Anis Humaira Azman - Team leader
+* Nurul Farizatul Aina Mohammad Farizal
+* Maimunah Hosni
+* Wan Siti Aisyah Wan Kadir
+* Siti Nurinsyirah Pahrin
+* Azyan Syazwani Setia
 
 # Project Description
 Our project for the APAC HPC AI Competition 2024 focuses on the integration and optimization of HOOMD-blue and LLaMA2 LitGPT on the NCI and NSCC SG supercomputers.
@@ -28,8 +28,8 @@ The objective is to leverage these advanced computational tools and high-perform
 * Result: Comparison on training time.
   
 #
-Programming Languages: Python
-HPC Resources: Gadi HPC system, Aspire2U NSCC
+* Programming Languages: Python
+* HPC Resources: Gadi HPC system, Aspire2U NSCC
 
 # Results
 [HOOMD Blue]
