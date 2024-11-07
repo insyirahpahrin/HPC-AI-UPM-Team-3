@@ -54,7 +54,24 @@ echo ${cmd}
 exec ${cmd}
 date
 ```
-
+## Our code vs base code
+We added and modified few lines in `llama.sh`, that are:
+```
+-x mpirun -mca btl ^ucx \
+-mca coll_hcoll_enable 1 -mca coll_basic_priority 10 \
+```
+```
+export NCCL_DEBUG=INFO
+export NCCL_IB_DISABLE=1
+export NCCL_NET_GDR_LEVEL=0
+export NCCL_SHM_DISABLE=1
+```
+and deleted:
+```
+-x NCCL_DEBUG=INFO \
+-x NCCL_NET_GDR_LEVEL=0 \
+-x NCCL_IB_DISABLE=1 \
+```
 
 # Reference Results
 computing/training/throughput performances  
