@@ -23,11 +23,9 @@ Describe the dataset(s) used in your project. Include information on the source,
 # Methodology
 Detail the approach and techniques used in your project. Include information on algorithms, models, and any HPC-specific techniques utilized.
 
-Programming Languages: [e.g., Python, C++]
-Libraries: [e.g., PyTorch, TensorFlow]
-HPC Resources: [e.g., Gadi HPC system]
+Programming Languages: Python
+HPC Resources: Gadi HPC system, Aspire2U NSCC
 System Architecture
-Provide an overview of the system architecture. Include diagrams if possible to illustrate the architecture of your solution.
 
 # Results
 Summarize the results of your project. Include any relevant metrics, charts, and visualizations.
