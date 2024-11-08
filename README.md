@@ -33,8 +33,11 @@ The objective is to leverage these advanced computational tools and high-perform
 
 # Results
 [HOOMD Blue]
-* Steps per second increased when more nodes and cores are used. This reflects on the improved performance with additional computational resources
-* 
+* Steps per second increased as more nodes and cores were used, reflecting improved performance with additional computational resources.
+* Execution time decreased with the addition of nodes and cores, indicating that using more nodes helps speed up task processing.
+* The system’s speedup tends to increase as more cores are used, since tasks are divided and processed in parallel, reducing the overall time required.
+* As more cores are added, the system’s efficiency decreases. While additional cores can speed up processing, they do not necessarily improve efficiency, as more resources are spent on managing the extra cores rather than on productive work.
+
 
 # Challenges
 Discuss any challenges or obstacles faced during the project and how they were addressed.
