@@ -74,6 +74,30 @@ and deleted:
 ```
 
 # Reference Results
+## Performance metrics
+Training time (s): This measures how long it takes to complete the training.  
+## Workload profile
+- Workload: Llama-2-7b finetune-full
+- Max Seq Length: 512
+- Number of Epochs: 1
+- Dataset
+
+| Supercomputer	| NSCC SG Aspire-2A iterations	|
+|:--------------|:------------------------------|
+| Dataset	| Alpaca1024/train.json	        |
+
+
+## Value initialization
+| Num. of nodes | Num. of GPUs | Num. of CPUs | Num. of Epochs | Global Batch Size | Micro Batch Size | Max Steps |
+|:--------------|:-------------|:-------------|:---------------|:------------------|:-----------------|:----------|
+| 2             | 8            | 128          | 1              | 128               | 32               | 20        |
+
+## Results
+### Baseline
+| Num. of nodes | Num. of GPUs | Num. of CPUs | Num. of Epochs | Global Batch Size | Micro Batch Size | Max Steps |
+|:--------------|:-------------|:-------------|:---------------|:------------------|:-----------------|:----------|
+| 2             | 8            | 128          | 1              | 128               | 32               | 20        |
+
 computing/training/throughput performances  
 improvements  
 advantages of your codes  
